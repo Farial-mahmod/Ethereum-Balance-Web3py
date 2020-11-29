@@ -17,4 +17,4 @@ print(web3.eth.blockNumber)
 myBalance = web3.eth.getBalance("YOUR_ACCOUNT")
 
 # Converting Wei to Ether cryptocurrency
-print(web3.fromWei(balance, "ether"))
+print(web3.fromWei(myBalance, "ether"))
